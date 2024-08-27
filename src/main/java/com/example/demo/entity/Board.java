@@ -14,7 +14,7 @@ import lombok.*;
 @ToString
 public class Board extends BaseEntity {
     @Id //기본키(primary key) 설정
-    @GeneratedValue(strategy = GenerationType.IDENTITY) // 1씩 자동증가
+    @GeneratedValue(strategy = GenerationType.IDENTITY) // 1씩 자동 증가
     private Long bno;
 
     private String title;
